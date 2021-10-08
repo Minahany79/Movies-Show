@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI Light", Tahoma, Verdana, sans-serif;
+  background-color: #0d0d0d;
+}
+
+#playing {
+  background-color: #0d0d0d;
+}
+
+#playing .form-control,
+#contact .form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+.info {
+  top: 100%;
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.movie:hover .info {
+  top: 0;
+}
+
+.info h2 {
+  font-size: 32px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.info p {
+  color: #000;
+  font-weight: 800;
+}
+
+.menu {
+  background-color: #000;
+}
+.nav-item li {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f9f6f6 !important;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.nav-item a:hover {
+  color: #ff655c !important;
+}
+.logo img {
+  height: 50px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.open-close i {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.slideToggle {
+  background-color: #f8f6f6;
+  position: absolute;
+  left: 0 ;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-social-item a {
+  color: #f9f6f6;
+  padding-left: 15px;
+  transition: all 0.3s;
+}
+
+.nav-social-item a:hover {
+  color: #ff655c;
+}
+
+.copyright  {
+  color: #999;
+  font-size: 18px;
+  width: 245px;
+}
